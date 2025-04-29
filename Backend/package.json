@@ -4,12 +4,16 @@
   "description": "backend with shivam",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+
+    "dev":"nodemon src/index.js"
   },
   "keywords": [
     "javascript",
     "backend"
   ],
   "author": "shivam patel",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
